@@ -65,7 +65,7 @@ def hit? (current_card_total)
   else
     invalid_command
     prompt_user
-    get_user_input
+    get_user_input # might have to assign to a variable
     return current_card_total
   #binding.pry
  end
