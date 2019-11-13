@@ -87,9 +87,9 @@ def runner
   welcome
   initial_round
 
-  until hit?(initial_round) > 21 do
-    display_card_total
-  end
+  #until hit?(initial_round) > 21 do
+    #display_card_total
+  #end
 
   #end_game
 
