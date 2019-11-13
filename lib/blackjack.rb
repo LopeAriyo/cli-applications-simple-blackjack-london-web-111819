@@ -58,8 +58,6 @@ def hit? (current_card_total)
   get_user_input
 
   if get_user_input == "s"
-    deal_card
-    #card_total += deal_card
     return current_card_total
   end
 
