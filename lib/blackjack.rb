@@ -64,13 +64,13 @@ def hit? (current_card_total)
     return current_card_total
   end
 
-  if get_user_input != "s" || get_user_input != "h"
-    invalid_command
-    prompt_user
-    get_user_input
-    current_card_total
+  #if get_user_input != "s" || get_user_input != "h"
+  #  invalid_command
+  #  prompt_user
+  #  get_user_input
+  #  current_card_total
   #binding.pry
- end
+ #end
 
   return
 
