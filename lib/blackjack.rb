@@ -87,10 +87,10 @@ def runner
   welcome
   initial_round
 
-  until hit? > 21 do 
+  until hit? > 21 do
     hit?
     display_card_total
-  end 
+  end
 
   end_game
 
