@@ -57,21 +57,28 @@ def hit? (current_card_total)
   prompt_user
   get_user_input
 
+  if get_user_input == "s"
+    deal_card
+    #card_total += deal_card
+    return current_card_total
+  end
+
 
   if get_user_input == "h"
     deal_card
-    #card_total += deal_card
+    current_card_total += deal_card
+    current_card_total
   end
 
   if get_user_input != "s" || get_user_input != "h"
     invalid_command
     prompt_user
     get_user_input
+    current_card_total
   #binding.pry
  end
 
-  return current_card_total
-
+  return 
 
 
 end
