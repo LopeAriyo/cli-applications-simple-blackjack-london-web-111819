@@ -52,7 +52,7 @@ def initial_round
 
 end
 
-def hit? (card_total)
+def hit? (current_card_total)
   # code hit? here
   prompt_user
   get_user_input
