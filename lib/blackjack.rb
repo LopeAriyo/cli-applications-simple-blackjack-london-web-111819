@@ -72,7 +72,6 @@ def hit? (current_card_total)
   #binding.pry
  #end
 
-  return
 
 
 end
