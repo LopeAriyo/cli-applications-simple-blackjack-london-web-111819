@@ -70,7 +70,7 @@ def hit? (current_card_total)
   #binding.pry
  end
 
-  return card_total
+  return current_card_total
 
 
 
